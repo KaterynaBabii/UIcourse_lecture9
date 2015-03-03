@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traverse DOM</title>
+  <script type="text/javascript" src="traverse.js"></script>
+</head>
+<body>
+  <div class="a1">Some text with class name "a1"
+    <div id="b1">Some text with id="b1"
+      <div class="a1">Some text with class name "a1"
+      </div>
+    </div>
+    <div class="a1">Some text with class name "a1"
+      <div class="a2">Some text with class name "a2"
+        <div class="a3">Some text with class name "a3"
+          <div class="a4">Some text with class name "a4"
+            <p>Some text </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">Some text without class name</div>
+    <div class="a1">Some text with class name "a1"
+    <div class="">Some text without class name
+    </div>
+  </div>
+
+</body>
+</html>
